@@ -12,6 +12,7 @@
 3. Markdown
 4. GIT
 5. A case for Neural Networks
+6. Keeping it simple - *hopefully*
 
 
 ## [Prerequisites](#contents)
