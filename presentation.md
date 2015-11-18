@@ -12,10 +12,10 @@
 2. The new workflow
 2. Jupyter
 3. Markdown
-4. GIT
+4. GIT & GitHub
 5. A case for Neural Networks
 6. Keeping it simple - *hopefully*
-7. Concluding Comments
+7. Concluding Remarks
 
 
 ## [Disclaimer](#contents)<a name="disclaimer"></a>
@@ -24,6 +24,20 @@
 ## [Prerequisites](#contents)<a name="prerequisites"></a>
 1. GIT
 2. GITHUB account
+
+## The New Workflow
+
+## Jupyter
+
+## MarkDown
+
+## GIT
+
+## A case for Neural Networks
+
+## Concluding Remarks
+
+
 
 
 
