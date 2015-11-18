@@ -16,6 +16,8 @@
 5. A case for Neural Networks
 6. Keeping it simple - *hopefully*
 7. Concluding Remarks
+8. Appendix I - Git commands
+9. Appendix II - Useful links
 
 
 ## [Disclaimer](#contents)<a name="disclaimer"></a>
