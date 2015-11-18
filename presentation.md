@@ -7,15 +7,21 @@
 
 ## Contents<a name="contents"></a>
 
-1. Prerequisites
+1. [Disclaimer](#disclaimer)
+2. [Prerequisites](#prerequisites)
+2. The new workflow
 2. Jupyter
 3. Markdown
 4. GIT
 5. A case for Neural Networks
 6. Keeping it simple - *hopefully*
+7. Concluding Comments
 
 
-## [Prerequisites](#contents)
+## [Disclaimer](#contents)<a name="disclaimer"></a>
+#### Warning this material appears to have content that may seep
+
+## [Prerequisites](#contents)<a name="prerequisites"></a>
 1. GIT
 2. GITHUB account
 
