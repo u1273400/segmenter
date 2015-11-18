@@ -14,8 +14,10 @@
 5. A case for Neural Networks
 
 
-
-
+[contents](#contents)
+## Prerequisites
+1. GIT
+2. GITHUB account
 
 
 
