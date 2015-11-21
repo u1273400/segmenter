@@ -1,0 +1,15 @@
+
+
+#Java Speech API (JSAPI)
+
+The Java Speech API comprises speech engines. A speech engine can either be a synthesiser or a recogniser.
+
+## relevance to the grand scheme of things
+
+The final speech segmenter and recogniser application will be implemented based upon the java speech API and as such, JSAPI tool forms as a background to the grand scheme of the overall implementation. 
+
+
+##Java speech markup language
+
+This comprises production elements, structural elements and other miscellaneous elements.
+
