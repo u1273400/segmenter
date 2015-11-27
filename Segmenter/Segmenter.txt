@@ -1,14 +1,67 @@
+ 
 
+Java Speech API (JSAPI)
+-----------------------
 
-##Java Speech API (JSAPI)
-
-The Java Speech API comprises speech engines. A speech engine can either be a synthesiser or a recogniser.
+The Java Speech API comprises speech engines. A speech engine can either be a
+synthesiser or a recogniser.
 
 ### relevance to the grand scheme of things
 
-The final speech segmenter and recogniser application will be implemented based upon the java speech API and as such, JSAPI tool forms as a background to the grand scheme of the overall implementation. 
+The final speech segmenter and recogniser application will be implemented based
+upon the java speech API and as such, JSAPI tool forms as a background to the
+grand scheme of the overall implementation.
 
-###Java speech markup language
+### Java speech markup language
 
-This comprises production elements, structural elements and other miscellaneous elements.
+This comprises production elements, structural elements and other miscellaneous
+elements.
 
+ 
+
+z-Transform
+-----------
+
+The z-transform is a constrained version of the Discrete Time Fourier
+Transform(DTFT). If we compare the DTFT to the z-transform, equations (1) and
+(2) below
+
+$$
+X(z)= \sum\limits_{n=\infty }^{\infty}{x[n]z^{-n}} 
+$$
+
+[@equation1]
+
+ 
+
+$$
+X(z)= sum_{n=-oo }^{oo}x[n]e^{-j\omegan} 
+$$
+
+[@equation2]
+
+We find essentially that the z transform is the DTFT constrained to
+$z=e^{j\omegan}$.
+
+ 
+
+It can be shown that the z-operator is a linear operator and that the weighted
+time-shifted timed function is transferable between the signal and it’s
+transform, that is:
+
+$$
+sum_{n=-oo }^{oo}kx[n]e^{-j\omegan}=ksum_{n=-oo }^{oo}x[n]e^{-j\omegan} 
+$$
+
+ 
+
+### Region of Convergence
+
+We also define a property of the z-transform called the Region of Convergence
+which is the values of z for which there exists a z-transform.
+
+ 
+
+ 
+
+ 
