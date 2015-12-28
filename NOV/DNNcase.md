@@ -1,5 +1,4 @@
 
-
 ## CASE FOR DEEP NEURAL NETWORKS FOR DATA CLASSIFICATION
 
 Contrastive Divergence is an an efficient learning algorithm that allows Deep Belief Networks learn multi-layer generative models from unlabeled data.  This greedy layer-wise pretraining method can be used to initialize a neural network that is fine-tuned with back-propagation (Sarikaya, Hinton & Deoras, 2014).
@@ -7,6 +6,12 @@ Contrastive Divergence is an an efficient learning algorithm that allows Deep Be
 Neural Networks initialised by Deep Belief Networks were found to perform as well as those that use other algorithms such as Supprt Vector Machines (SVMs), Boosting and Maximum Entropy.  However, these other algorithms depend on supervised learning of pre-classified data.  DBNs on the other hand have the benefit of also accurately classifying unlabeled data.
 
 Up until recently, Neural networks efficiency was impeded by difficulty of training when compared to their probabilistic couterparts such as Hidden Markov Models. In order to overcome this limitation an optimized probabilistic algorithm known as the Restricted Boltzmann Machine (RBM) was invented to incorporate efficient probabilistic training methods using Deep Belief networks to provide fast training algorithms. In other words,Saraki et. al. (2014) assert that DBNs are analogous to Maximum entropy classifiers whose features are being learned rather than being preset.
+
+### Machine Learning
+
+Machine Learning is analogous to human learning due to the similarity of learning from experience for humans beng practically analogous to machines learning from data (Marsland, 2009). 
+
+### NEURAL NETWORKS
 
 Traditional Neural Networks are so called due to their being modeled after the interconnection of brain cells called neurons.  Each neuron in the brain is approximated to be connected to thousands of other neurons.  A particular feature of the brain called plasticity. Plasticity allows neurons to change their particular interconnections to other neurons based on events that occur. It is this feature that is perceived to cause learning in humans(ref.)
 
@@ -16,9 +21,6 @@ In particular, the Rosenblatt(1958) perceptron uses a binary function to sub-div
 ![Artificial Neural Network](https://selene.hud.ac.uk/u1273400/images/seg_media/nn.PNG)
 
 The Artificial neural network comprises an input layer, a hidden layer and an output layer.  In order to avoid over-fitting, no more than  two layers are used at the hidden layer. The outputs of the hidden layer are weighted linear functions of the inputs wrapped in what is called the activation function.  These outputs aggregrate from one layer to the next.  Some common activation functions outlined by (ref) is shown in the table below (table)
-
-
-
 
 Thus, algebraically, the output of a neural network layer is given by $ \phi(w_1x_1+w_2x_2) $ where $ \phi $ is an activation function like sigmoid, and $ w_i $ weights are being pre-determined by the training algorithm.  Basic training algorithms that are based on the Gradient Descent algorithm include the delta rule, back propagation, quick propagation and RProp (ref).  These methods attempt to converge the neural network by minimizing error based on local inputs and estimating the next iteration step error.
 

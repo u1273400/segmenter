@@ -22,7 +22,4 @@ The Shanon sampling theorem states that the minimum frequency required to accura
 
 *Normally stored in 16 bits, of which 12 are significant. Telephony quality speech is sampled at 8kHz with a 12 bit dynamic range (stored in 8 bits with a non-linear squashing function).*
 
-
-```python
-
-```
+See more at (Chap 1- Speech Processing - McCoughling)
