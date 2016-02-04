@@ -176,3 +176,22 @@ Determine if this system is controllable
 detSc = 1 x (3 x 7 - 4 x 5) - 2 x (2 x 7 - 4 x 3) + 3 x (2 x 5 - 3 x 3) = 1 - 4 + 3 = 0.
 
 Since detSc=0, the composite matrix is singular and therefore the system is not controllable
+
+## Controllability and Observability
+
+**Controllability**: In order to be able to do whatever we want with the given dynamic system under control input, the system must be controllable.
+
+**Observability**: In order to see what is going on inside the system under observation, the system must be observable.
+
+It is well known that a solvable
+system of linear algebraic equations has a solution if and only if the rank of the system matrix is full . Observability and controllability tests will be connected to the rank tests of ceratin matrices: the controllability and observability matrices
+
+### Observability of Discrete Systems
+
+Consider a linear, time invariant, discrete-time system in the state space form
+$$ x(k+1)=A_dx(k), x(0)=x_0=unknown - - - - \dots(1) $$
+with output measurements
+$$ y(k)=C_dx(k) - - - - \dots(1) $$
+where $x(k)\in \mathfrak{R}^n, y(k)\in \mathfrak{R}^n$. $A_d$ and $C_d$ are constant matrices of appropriate dimensions.  The natural question to be asked is: can we learn everything about the dynamical behaviour of the state space variables defined in equation (1) by using only information from output measurements.  If we know x_0, then the recursion apparently gives us complete knowledge about the state variables at any state measurements is the initial vector x(0)=$x_0$.
+
+
